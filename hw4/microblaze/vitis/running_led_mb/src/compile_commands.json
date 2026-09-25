@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/running_led_mb/build",
+    "file": "C:\\Users\\nocl1p\\Projects\\rd_hw\\hw4\\microblaze\\vitis\\running_led_mb\\src\\main.c",
+    "output": "CMakeFiles\\running_led_mb.elf.dir\\main.c.obj",
+    "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\microblaze\\nt\\bin\\mb-gcc.exe -IC:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/running_led_mb/src -isystem C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/export/microblaze_platform/sw/standalone_microblaze_0/include -isystem C:/AMDDesignTools/2026.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include   -mlittle-endian -mxl-soft-mul -mcpu\u003dv11.0 -DSDT  -MMD -MP -specs\u003dC:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/export/microblaze_platform/sw/standalone_microblaze_0/Xilinx.spec -IC:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/export/microblaze_platform/sw/standalone_microblaze_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\running_led_mb.elf.dir\\main.c.obj -c C:\\Users\\nocl1p\\Projects\\rd_hw\\hw4\\microblaze\\vitis\\running_led_mb\\src\\main.c -D__MICROBLAZE__"
+  }
+]

@@ -1,0 +1,102 @@
+--------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
+ [9/25/2026, 5:05:41 PM]: Generate zynq_platform platform with id 'c7b3be98-b644-4120-b5fe-ec8970754855' started.
+ --------------------------------------------------------------------------------
+ The log will be written to the file: C:\Users\nocl1p\Projects\rd_hw\hw4\zynq_ps\vitis\zynq_platform\logs\standalone_ps7_cortexa9_0_build.log
+ The log will be written to the file: C:\Users\nocl1p\Projects\rd_hw\hw4\zynq_ps\vitis\zynq_platform\logs\zynq_fsbl_build.log
+ [INFO]: Building BSP
+[INFO]: Copying headers and built archives
+[INFO]: Successfully built BSP. Generated libxil.a, libxilstandalone.a, libxiltimer.a
+[1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+
+Compiler PATH: C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+
+Compiler FLAGS:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/nocl1p
+/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/Xilinx.
+spec -IC:/Users/nocl1p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/ps7_cortexa9_0/standalone_ps7_
+
+cortexa9_0/bsp/include  -O2 -g -Wall -Wextra -fno-tree-loop-distribute-patterns -DNDEBUG
+
+
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+ [INFO]: Building BSP
+[INFO]: Copying headers and built archives
+[INFO]: Successfully built BSP. Generated libxil.a, libxilffs.a, libxilrsa.a, libxilstandalone.a, libxiltimer.a
+[1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+
+Compiler PATH: C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+
+Compiler FLAGS:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/nocl1p
+/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec -IC:/Users/nocl1
+p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/zynq_fsbl_bsp/include  -O2 -g -Wall -Wext
+
+ra -fno-tree-loop-distribute-patterns -DNDEBUG
+
+
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+ Generating Boot ELFs
+ [INFO]: Starting Application build process
+[INFO]: Building BSP
+[INFO]: Copying headers and built archives
+[INFO]: Successfully built BSP. Generated libxil.a, libxilffs.a, libxilrsa.a, libxilstandalone.a, libxiltimer.a
+ [INFO]: Building Application
+[1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+
+Compiler PATH: C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+
+Compiler FLAGS:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/nocl1p
+/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec -IC:/Users/nocl1
+p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/zynq_fsbl_bsp/include  -O2 -g -Wall -Wext
+
+ra -fno-tree-loop-distribute-patterns -DNDEBUG
+
+
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+[1/13] ==========Application Build Information ==========
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/nocl1p
+/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec -IC:/Users/nocl1
+p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/zynq_fsbl_bsp/include -Wall -Wextra      
+-O0  -g3     -U__clang__  
+
+Linker Flags:       -Os -Wl,--gc-sections -n -T"C:/Users/nocl1p/Projects/rd_hw/hw4/zynq_ps/vitis/zyn
+q_platform/zynq_fsbl/lscript.ld" -L"C:/Users/nocl1p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/z
+ 
+ynq_fsbl/zynq_fsbl_bsp/lib/" -L"/" -Wl,--start-group,-lxiltimer,-lxilffs,-lxilrsa,-lxil,-lxilstandal
+
+one,-lxiltimer,-lxilffs,-lxilrsa,-lgcc,-lc -Wl,--end-group
+
+
+===========================================
+[2/13] Building C object CMakeFiles/fsbl.elf.dir/rsa.c.obj
+[3/13] Building C object CMakeFiles/fsbl.elf.dir/nand.c.obj
+[4/13] Building C object CMakeFiles/fsbl.elf.dir/md5.c.obj
+[5/13] Building C object CMakeFiles/fsbl.elf.dir/fsbl_hooks.c.obj
+[6/13] Building C object CMakeFiles/fsbl.elf.dir/nor.c.obj
+[7/13] Building C object CMakeFiles/fsbl.elf.dir/qspi.c.obj
+[8/13] Building C object CMakeFiles/fsbl.elf.dir/sd.c.obj
+[9/13] Building C object CMakeFiles/fsbl.elf.dir/main.c.obj
+[10/13] Building C object CMakeFiles/fsbl.elf.dir/pcap.c.obj
+[11/13] Building C object CMakeFiles/fsbl.elf.dir/image_mover.c.obj
+[12/13] Building C object CMakeFiles/fsbl.elf.dir/ps7_init.c.obj
+C:/Users/nocl1p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/ps7_init.c: In function 'ps7_config':
+C:/Users/nocl1p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/ps7_init.c:6895:35: warning: comparison of integer expressions of different signedness: 'long unsigned int' and 'int' [-Wsign-compare]
+ 6895 |                     while ((*addr < delay)) {
+      |                                   ^
+[13/13] Linking C executable fsbl.elf
+   text	   data	    bss	    dec	    hex	filename
+
+   47725	   7012	  68020	 122757	  1df85	fsbl.elf
+
+ Generating Export directory
+ Platform Build Finished successfully.
+[9/25/2026, 5:05:45 PM]: Generate zynq_platform platform with id 'c7b3be98-b644-4120-b5fe-ec8970754855' ended.

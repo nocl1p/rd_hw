@@ -1,0 +1,6 @@
+create libxil.a
+addlib C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/tmrctr/src/libtmrctr.a
+addlib C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/gpio/src/libgpio.a
+addlib C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/bram/src/libbram.a
+save
+end

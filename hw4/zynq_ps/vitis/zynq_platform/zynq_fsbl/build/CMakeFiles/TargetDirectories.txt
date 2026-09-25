@@ -1,0 +1,4 @@
+C:/Users/nocl1p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+C:/Users/nocl1p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+C:/Users/nocl1p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+C:/Users/nocl1p/Projects/rd_hw/hw4/zynq_ps/vitis/zynq_platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

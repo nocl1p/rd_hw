@@ -1,0 +1,4 @@
+domain_path: C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/export/microblaze_platform/sw/standalone_microblaze_0
+app_src_dir: C:\AMDDesignTools\2026.1\Vitis\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c

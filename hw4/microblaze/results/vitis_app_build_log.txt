@@ -1,0 +1,36 @@
+ --------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
+ [9/25/2026, 8:28:38 PM]: Build for running_led_mb::build with id '0a5f32ab-9d07-4f7c-8063-b3af5f97c052' started.
+ --------------------------------------------------------------------------------
+ Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\nocl1p\Projects\rd_hw\hw4\microblaze\vitis\running_led_mb\src -b c:\Users\nocl1p\Projects\rd_hw\hw4\microblaze\vitis\running_led_mb\build
+ The log will be written to the file: c:\Users\nocl1p\Projects\rd_hw\hw4\microblaze\vitis\running_led_mb\build\build.log
+ [INFO]: Starting Application build process
+ [INFO]: Building Application
+ [1/3] ==========Application Build Information ==========
+
+Compiler Flags:   -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=C:/Users/nocl1p/P
+rojects/rd_hw/hw4/microblaze/vitis/microblaze_platform/export/microblaze_platform/sw/standalone_micr
+oblaze_0/Xilinx.spec -IC:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/expor
+t/microblaze_platform/sw/standalone_microblaze_0/include -Wall -Wextra      -O0  -g3     -U__clang__
+  
+
+Linker Flags:   -Wl,--no-relax  -Wl,--gc-sections      -Wl,-T -Wl,"C:/Users/nocl1p/Projects/rd_hw/hw
+
+4/microblaze/vitis/running_led_mb/src/lscript.ld" -L"C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/v
+
+itis/running_led_mb/src/" -L"C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform
+
+/export/microblaze_platform/sw/standalone_microblaze_0/lib/" -L"/" -Wl,--start-group,-lxilstandalone
+
+,-lxiltimer,-lgloss,-lxil,-lgcc,-lc -Wl,--end-group
+
+
+===========================================
+[2/3] Building C object CMakeFiles/running_led_mb.elf.dir/main.c.obj
+[3/3] Linking C executable running_led_mb.elf
+   text	   data	    bss	    dec	    hex	filename
+
+   8088	    258	   3470	  11816	   2e28	running_led_mb.elf
+ Build Finished successfully
+ --------------------------------------------------------------------------------
+[9/25/2026, 8:28:40 PM]: Build for running_led_mb::build with id '0a5f32ab-9d07-4f7c-8063-b3af5f97c052' ended.

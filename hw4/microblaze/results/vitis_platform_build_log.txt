@@ -1,0 +1,103 @@
+ --------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
+ [9/25/2026, 8:10:50 PM]: Generate microblaze_platform platform with id '623bcadf-88cc-4c89-bccf-101c23e550de' started.
+ --------------------------------------------------------------------------------
+ [INFO]: Configuring CMake with updated BSP configurations
+-- The C compiler identification is GNU 13.4.0
+ -- The CXX compiler identification is GNU 13.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/AMDDesignTools/2026.1/Vitis/gnu/microblaze/nt/bin/mb-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/AMDDesignTools/2026.1/Vitis/gnu/microblaze/nt/bin/mb-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/AMDDesignTools/2026.1/Vitis/gnu/microblaze/nt/bin/mb-gcc.exe
+ -- Configuring done (1.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp
+ The log will be written to the file: C:\Users\nocl1p\Projects\rd_hw\hw4\microblaze\vitis\microblaze_platform\logs\standalone_microblaze_0_build.log
+ -- Configuring done (0.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp
+[INFO]: Building BSP
+ [INFO]: Copying headers and built archives
+[INFO]: Successfully built BSP. Generated libxil.a, libxilstandalone.a, libxiltimer.a
+[1/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xil_testcache.c.obj
+[2/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/inbyte.c.obj
+[3/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xil_mem.c.obj
+[4/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xil_assert.c.obj
+[5/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/xmicroblaze_g.c.obj
+[6/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/print.c.obj
+[7/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xplatform_info.c.obj
+[8/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/outbyte.c.obj
+[9/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xpm_init.c.obj
+[10/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/fcntl.c.obj
+[11/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/intr/xinterrupt_wrap.c.obj
+[12/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xil_testio.c.obj
+[13/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/errno.c.obj
+[14/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/microblaze_exception_handler.c.obj
+[15/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/pvr.c.obj
+[16/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xil_testmem.c.obj
+[17/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xil_printf.c.obj
+[18/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/microblaze_interrupts_g.c.obj
+[19/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/_exit.c.obj
+[20/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/xio.c.obj
+[21/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xil_util.c.obj
+[22/56] Building ASM object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/hw_exception_handler.S.obj
+[23/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/microblaze_interrupt_handler.c.obj
+ [24/56] Building C object libsrc/bram/src/CMakeFiles/bram.dir/xbram_g.c.obj
+[25/56] Building ASM object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/microblaze_scrub.S.obj
+[26/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/common/xil_sutil.c.obj
+[27/56] Building C object libsrc/bram/src/CMakeFiles/bram.dir/xbram.c.obj
+[28/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/xil_misc_psreset_api.c.obj
+[29/56] Building C object libsrc/bram/src/CMakeFiles/bram.dir/xbram_sinit.c.obj
+[30/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/xil_exception.c.obj
+[31/56] Building C object libsrc/bram/src/CMakeFiles/bram.dir/xbram_intr.c.obj
+[32/56] Building C object libsrc/gpio/src/CMakeFiles/gpio.dir/xgpio_g.c.obj
+[33/56] Building C object libsrc/standalone/src/CMakeFiles/xilstandalone.dir/microblaze/xil_cache.c.obj
+[34/56] Building C object libsrc/gpio/src/CMakeFiles/gpio.dir/xgpio_extra.c.obj
+[35/56] Building C object libsrc/gpio/src/CMakeFiles/gpio.dir/xgpio_selftest.c.obj
+[36/56] Building C object libsrc/gpio/src/CMakeFiles/gpio.dir/xgpio.c.obj
+[37/56] Building C object libsrc/gpio/src/CMakeFiles/gpio.dir/xgpio_sinit.c.obj
+[38/56] Building C object libsrc/gpio/src/CMakeFiles/gpio.dir/xgpio_intr.c.obj
+[39/56] Building C object libsrc/tmrctr/src/CMakeFiles/tmrctr.dir/xtmrctr_l.c.obj
+[40/56] Building C object libsrc/tmrctr/src/CMakeFiles/tmrctr.dir/xtmrctr_options.c.obj
+[41/56] Building C object libsrc/tmrctr/src/CMakeFiles/tmrctr.dir/xtmrctr_sinit.c.obj
+[42/56] Building C object libsrc/tmrctr/src/CMakeFiles/tmrctr.dir/xtmrctr_intr.c.obj
+[43/56] Building C object libsrc/tmrctr/src/CMakeFiles/tmrctr.dir/xtmrctr_g.c.obj
+[44/56] Building C object libsrc/tmrctr/src/CMakeFiles/tmrctr.dir/xtmrctr_selftest.c.obj
+[45/56] Building C object libsrc/bram/src/CMakeFiles/bram.dir/xbram_selftest.c.obj
+[46/56] Building C object libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/default_timer/microblaze_sleep.c.obj
+[47/56] Building C object libsrc/tmrctr/src/CMakeFiles/tmrctr.dir/xtmrctr_stats.c.obj
+[48/56] Building C object libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/xiltimer.c.obj
+ [49/56] ========== BSP Build Information ==========
+
+Compiler PATH: C:/AMDDesignTools/2026.1/Vitis/gnu/microblaze/nt/bin/mb-gcc.exe
+
+Compiler FLAGS:   -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=C:/Users/nocl1p/P
+rojects/rd_hw/hw4/microblaze/vitis/microblaze_platform/microblaze_0/standalone_microblaze_0/bsp/Xili
+nx.spec -IC:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vitis/microblaze_platform/microblaze_0/stand
+alone_microblaze_0/bsp/include  -O2 -g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-l
+oop-distribute-patterns -DNDEBUG
+
+
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+[50/56] Building C object libsrc/tmrctr/src/CMakeFiles/tmrctr.dir/xtmrctr.c.obj
+[51/56] Linking C static library libsrc\standalone\src\libxilstandalone.a
+[52/56] Linking C static library libsrc\gpio\src\libgpio.a
+[53/56] Linking C static library libsrc\xiltimer\src\libxiltimer.a
+[54/56] Linking C static library libsrc\bram\src\libbram.a
+[55/56] Linking C static library libsrc\tmrctr\src\libtmrctr.a
+[56/56] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+ Generating Boot ELFs
+ Generating Export directory
+ Platform Build Finished successfully.
+ --------------------------------------------------------------------------------
+[9/25/2026, 8:10:55 PM]: Generate microblaze_platform platform with id '623bcadf-88cc-4c89-bccf-101c23e550de' ended.

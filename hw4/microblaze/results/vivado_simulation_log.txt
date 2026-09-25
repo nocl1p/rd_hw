@@ -1,0 +1,100 @@
+launch_simulation
+Command: launch_simulation  -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Fri Sep 25 21:38:48 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_microblaze_system'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+Generating merged BMM file for the design top 'tb_microblaze_system'...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/AMDDesignTools/2026.1/Vivado/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/AMDDesignTools/2026.1/Vivado/data/xsim/xsim.ini' copied to run dir:'C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-50] Design contains embedded sources, generating MEM files for simulation...
+Generating merged BMM file for the design top 'tb_microblaze_system'...
+Generating merged BMM file for the design top 'tb_microblaze_system'...
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_microblaze_system' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.sim/sim_1/behav/xsim/sc_xtlm_microblaze_system_axi_smc_0.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -L smartconnect_v1_0 -L axi_vip_v1_1_23 -L xilinx_vip -prj tb_microblaze_system_vlog.prj"
+"xvhdl --incr --relax -prj tb_microblaze_system_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L microblaze_v11_0_17 -L lmb_v10_v3_0_16 -L lmb_bram_if_cntlr_v4_0_28 -L blk_mem_gen_v8_4_13 -L axi_lite_ipif_v3_1_0 -L mdm_v3_2_30 -L proc_sys_reset_v5_0_17 -L interrupt_control_v3_2_0 -L axi_gpio_v2_0_38 -L axi_timer_v2_0_38 -L smartconnect_v1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_37 -L axi_vip_v1_1_23 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_microblaze_system_behav xil_defaultlib.tb_microblaze_system xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L microblaze_v11_0_17 -L lmb_v10_v3_0_16 -L lmb_bram_if_cntlr_v4_0_28 -L blk_mem_gen_v8_4_13 -L axi_lite_ipif_v3_1_0 -L mdm_v3_2_30 -L proc_sys_reset_v5_0_17 -L interrupt_control_v3_2_0 -L axi_gpio_v2_0_38 -L axi_timer_v2_0_38 -L smartconnect_v1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_37 -L axi_vip_v1_1_23 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_microblaze_system_behav xil_defaultlib.tb_microblaze_system xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'generateout0' is not connected on this instance [C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.ip_user_files/bd/microblaze_system/sim/microblaze_system.v:519]
+WARNING: [VRFC 10-5021] port 'interrupt_ack' is not connected on this instance [C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.ip_user_files/bd/microblaze_system/sim/microblaze_system.v:558]
+WARNING: [VRFC 10-5021] port 'peripheral_reset' is not connected on this instance [C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.ip_user_files/bd/microblaze_system/sim/microblaze_system.v:634]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.ip_user_files/bd/microblaze_system/sim/microblaze_system.v:138]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.ip_user_files/bd/microblaze_system/sim/microblaze_system.v:184]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nocl1p/Projects/rd_hw/hw4/microblaze/vivado/hw4_microblaze.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_microblaze_system_behav -key {Behavioral:sim_1:Functional:tb_microblaze_system} -tclbatch {tb_microblaze_system.tcl} -protoinst "protoinst_files/bd_d131.protoinst" -protoinst "protoinst_files/microblaze_system.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_d131.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i/axi_smc/inst//sc_ul/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i/axi_smc/inst//sc_ul/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i/axi_smc/inst//sc_ul/M02_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i/axi_smc/inst//sc_ul/M03_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i/axi_smc/inst//sc_ul/S00_AXI
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/microblaze_system.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//axi_gpio_btn/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//axi_gpio_led/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//axi_gpio_sw/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//axi_smc/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//axi_smc/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//axi_smc/M02_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//axi_smc/M03_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//axi_smc/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//axi_timer_0/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb_microblaze_system/dut/microblaze_system_i//microblaze_0/M_AXI_DP
+Time resolution is 1 ps
+source tb_microblaze_system.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module tb_microblaze_system.dut.microblaze_system_i.microblaze_0_local_memory.lmb_bram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_13_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+====================================
+ MicroBlaze running LED simulation
+====================================
+Reset released at 1000000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_microblaze_system_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 4013.078 ; gain = 0.000
+run 1500 us
+PASS: Initial LED = 0001 at 20575000
+PASS: Forward movement, LED = 0010 at 222355000
+PASS: Faster mode changed LED at 326815000
+PASS: Slower mode changed LED at 530645000
+PASS: Pause works, LED stayed 1000
+PASS: Resume works, LED = 0001
+PASS: Backward direction, LED = 1000
+
+====================================
+ ALL TESTS PASSED
+====================================
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:41 . Memory (MB): peak = 4013.078 ; gain = 0.000
