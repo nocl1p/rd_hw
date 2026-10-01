@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_microblaze_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="tb_microblaze_system" />
+            <top_module name="tc_types" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,501.000001 us"></ZoomEndTime>
+      <Cursor1Time time="312.409091 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="81"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/tb_microblaze_system/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_microblaze_system/reset_rtl_0" type="logic">
+      <obj_property name="ElementShortName">reset_rtl_0</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_microblaze_system/btn_tri_i" type="array">
+      <obj_property name="ElementShortName">btn_tri_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn_tri_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_microblaze_system/sw_tri_i" type="array">
+      <obj_property name="ElementShortName">sw_tri_i[0:0]</obj_property>
+      <obj_property name="ObjectShortName">sw_tri_i[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_microblaze_system/led_tri_o" type="array">
+      <obj_property name="ElementShortName">led_tri_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_tri_o[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

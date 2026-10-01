@@ -879,7 +879,7 @@
     },
     "elf_association": {
       "file": {
-        "name": "..\\..\\..\\..\\..\\vitis\\running_led_mb\\build\\running_led_mb.elf",
+        "name": "..\\..\\..\\sim_1\\imports\\build\\running_led_mb.elf",
         "type": "ELF",
         "checksum": "948887101",
         "IsVisible": "1",
