@@ -1,0 +1,31 @@
+ --------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
+ [10/5/2026, 4:00:28 PM]: Build for frame_capture_app::build with id 'de6741d2-17ff-46c6-977e-b4297ef23ef9' started.
+ --------------------------------------------------------------------------------
+ Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\nocl1p\Projects\rd_hw\hw5\vitis\frame_capture_app\src -b c:\Users\nocl1p\Projects\rd_hw\hw5\vitis\frame_capture_app\build
+ The log will be written to the file: c:\Users\nocl1p\Projects\rd_hw\hw5\vitis\frame_capture_app\build\build.log
+ [INFO]: Starting Application build process
+ [INFO]: Building Application
+ [1/3] ==========Application Build Information ==========
+
+Compiler Flags:   -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=C:/Users/nocl1p/P
+rojects/rd_hw/hw5/vitis/hw5_platform/export/hw5_platform/sw/standalone_microblaze_0/Xilinx.spec -IC:
+/Users/nocl1p/Projects/rd_hw/hw5/vitis/hw5_platform/export/hw5_platform/sw/standalone_microblaze_0/i
+nclude -Wall -Wextra      -O0  -g3     -U__clang__  
+
+Linker Flags:   -Wl,--no-relax  -Wl,--gc-sections      -Wl,-T -Wl,"C:/Users/nocl1p/Projects/rd_hw/hw
+5/vitis/frame_capture_app/src/lscript.ld" -L"C:/Users/nocl1p/Projects/rd_hw/hw5/vitis/frame_capture_
+app/src/" -L"C:/Users/nocl1p/Projects/rd_hw/hw5/vitis/hw5_platform/export/hw5_platform/sw/standalone
+_microblaze_0/lib/" -L"/" -Wl,--start-group,-lxilstandalone,-lxiltimer,-lgloss,-lxil,-lgcc,-lc -Wl,-
+-end-group
+
+===========================================
+[2/3] Building C object CMakeFiles/frame_capture_app.elf.dir/main.c.obj
+[3/3] Linking C executable frame_capture_app.elf
+   text	   data	    bss	    dec	    hex	filename
+
+   7783	    624	   5353	  13760	   35c0	frame_capture_app.elf
+
+ Build Finished successfully
+ --------------------------------------------------------------------------------
+[10/5/2026, 4:00:30 PM]: Build for frame_capture_app::build with id 'de6741d2-17ff-46c6-977e-b4297ef23ef9' ended.

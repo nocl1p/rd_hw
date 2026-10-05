@@ -1,0 +1,9 @@
+axi_dma_frame:
+- axi_dma
+- axidma
+axi_gpio_ctrl:
+- axi_gpio
+- gpio
+microblaze_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram
