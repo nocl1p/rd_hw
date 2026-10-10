@@ -1,0 +1,20 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="moving_max" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=moving_max" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="C:/Users/nocl1p/Projects/rd_hw/hw7/cpp_src/moving_max.cpp:19:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="moving_max" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="C:/Users/nocl1p/Projects/rd_hw/hw7/cpp_src/moving_max.cpp:23:9" msg_body="Loop 'SHIFT_LOOP' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="SHIFT_LOOP"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="C:/Users/nocl1p/Projects/rd_hw/hw7/cpp_src/moving_max.cpp:36:9" msg_body="Loop 'MAX_LOOP' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="MAX_LOOP"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/Users/nocl1p/Projects/rd_hw/hw7/cpp_src/moving_max.cpp:6:0" msg_body="Unrolling loop 'SHIFT_LOOP' (C:/Users/nocl1p/Projects/rd_hw/hw7/cpp_src/moving_max.cpp:23:9) in function 'moving_max' completely with a factor of 7">
+        <args Factor="7" LoopLoc="C:/Users/nocl1p/Projects/rd_hw/hw7/cpp_src/moving_max.cpp:23:9" LoopName="SHIFT_LOOP"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/Users/nocl1p/Projects/rd_hw/hw7/cpp_src/moving_max.cpp:6:0" msg_body="Unrolling loop 'MAX_LOOP' (C:/Users/nocl1p/Projects/rd_hw/hw7/cpp_src/moving_max.cpp:36:9) in function 'moving_max' completely with a factor of 8">
+        <args Factor="8" LoopLoc="C:/Users/nocl1p/Projects/rd_hw/hw7/cpp_src/moving_max.cpp:36:9" LoopName="MAX_LOOP"/>
+    </msg>
+</xilinx:hls_fe_msgs>

@@ -1,0 +1,11 @@
+Без директив:
+	Latency: 2186 cycles
+	DSP: 0
+	FF: 111
+	LUT: 322
+
+PIPELINE II=1:	79 cycles
+	Latency: 79 cycles
+	DSP: 0
+	FF: 576
+	LUT: 746

@@ -1,0 +1,46 @@
+{
+    "1": {
+        "name": "moving_max_Pipeline_MAIN_LOOP",
+        "file": "C:\/Users\/nocl1p\/Projects\/rd_hw\/hw7\/cpp_src\/moving_max.cpp",
+        "fileloc": "17",
+        "instructions": "69",
+        "total_instructions": "69",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "18",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "8",
+            "T": "1"
+        },
+        "stores": {
+            "L": "16",
+            "T": "1"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "moving_max",
+        "file": "moving_max.cpp",
+        "fileloc": "6",
+        "instructions": "18",
+        "total_instructions": "87",
+        "calls": "1",
+        "basicblocks": "4",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+sv xil_defaultlib "glbl.v"
+sv xil_defaultlib "AESL_automem_in_data.v"
+sv xil_defaultlib "AESL_automem_out_data.v"
+sv xil_defaultlib "moving_max.autotb.v"
+sv xil_defaultlib "moving_max.v"
+sv xil_defaultlib "moving_max_flow_control_loop_pipe_sequential_init.v"
+sv xil_defaultlib "moving_max_moving_max_Pipeline_MAIN_LOOP.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+sv xil_defaultlib "./file_agent/file_agent_pkg.sv"     
+sv xil_defaultlib "./moving_max_subsystem/moving_max_subsystem_pkg.sv"           
+sv xil_defaultlib "./svtb/misc_interface.sv"    
+sv xil_defaultlib "./svtb/sv_module_top.sv"   
+

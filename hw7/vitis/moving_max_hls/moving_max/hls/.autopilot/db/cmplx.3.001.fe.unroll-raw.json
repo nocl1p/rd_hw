@@ -1,0 +1,22 @@
+{
+  "0": {
+    "basicblocks": 27,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 10,
+    "file": "moving_max.cpp",
+    "fileloc": 6,
+    "instructions": 121,
+    "loads": {
+      "L": 23,
+      "T": 1
+    },
+    "memory_accesses": 34,
+    "name": "moving_max",
+    "stores": {
+      "L": 9,
+      "T": 1
+    },
+    "total_instructions": 121
+  }
+}

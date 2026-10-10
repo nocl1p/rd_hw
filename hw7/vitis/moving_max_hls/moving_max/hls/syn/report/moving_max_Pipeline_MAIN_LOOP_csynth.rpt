@@ -1,0 +1,193 @@
+
+
+================================================================
+== Vitis HLS Report for 'moving_max_Pipeline_MAIN_LOOP'
+================================================================
+* Date:           Sat Oct 10 13:03:36 2026
+
+* Version:        2026.1 (Build 6493734 on Jun 16 2026)
+* Project:        moving_max
+* Solution:       hls
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.500 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
+    |   min   |   max   |    min   |    max   | min | max |        Type       |
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |       69|       69|  0.690 us|  0.690 us|    0|    0|  loop pipeline stp|
+    +---------+---------+----------+----------+-----+-----+-------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |             |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- MAIN_LOOP  |       67|       67|         5|          1|          1|    64|       yes|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|    528|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       -|      -|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     99|    -|
+|Register         |        -|    -|     568|     64|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|     568|    691|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|      1|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------+----------+----+---+----+------------+------------+
+    |      Variable Name     | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------+----------+----+---+----+------------+------------+
+    |add_ln17_fu_199_p2      |         +|   0|  0|  14|           7|           1|
+    |icmp_ln17_fu_193_p2     |      icmp|   0|  0|  15|           7|           8|
+    |icmp_ln37_1_fu_238_p2   |      icmp|   0|  0|  39|          32|          32|
+    |icmp_ln37_2_fu_273_p2   |      icmp|   0|  0|  39|          32|          32|
+    |icmp_ln37_3_fu_283_p2   |      icmp|   0|  0|  39|          32|          32|
+    |icmp_ln37_4_fu_309_p2   |      icmp|   0|  0|  39|          32|          32|
+    |icmp_ln37_5_fu_319_p2   |      icmp|   0|  0|  39|          32|          32|
+    |icmp_ln37_6_fu_340_p2   |      icmp|   0|  0|  39|          32|          32|
+    |icmp_ln37_fu_224_p2     |      icmp|   0|  0|  39|          32|          32|
+    |max_value_16_fu_230_p3  |    select|   0|  0|  32|           1|          32|
+    |max_value_18_fu_244_p3  |    select|   0|  0|  32|           1|          32|
+    |max_value_20_fu_277_p3  |    select|   0|  0|  32|           1|          32|
+    |max_value_22_fu_289_p3  |    select|   0|  0|  32|           1|          32|
+    |max_value_24_fu_313_p3  |    select|   0|  0|  32|           1|          32|
+    |max_value_26_fu_325_p3  |    select|   0|  0|  32|           1|          32|
+    |max_value_27_fu_345_p3  |    select|   0|  0|  32|           1|          32|
+    |ap_enable_pp0           |       xor|   0|  0|   2|           1|           2|
+    +------------------------+----------+----+---+----+------------+------------+
+    |Total                   |          |   0|  0| 528|         246|         459|
+    +------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_done_int              |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter4  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_n_1     |   9|          2|    7|         14|
+    |max_value_11_fu_58       |   9|          2|   32|         64|
+    |max_value_13_fu_50       |   9|          2|   32|         64|
+    |max_value_1_fu_78        |   9|          2|   32|         64|
+    |max_value_3_fu_74        |   9|          2|   32|         64|
+    |max_value_5_fu_70        |   9|          2|   32|         64|
+    |max_value_7_fu_66        |   9|          2|   32|         64|
+    |max_value_9_fu_62        |   9|          2|   32|         64|
+    |n_fu_54                  |   9|          2|    7|         14|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  99|         22|  240|        480|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------+----+----+-----+-----------+
+    |               Name               | FF | LUT| Bits| Const Bits|
+    +----------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                         |   1|   0|    1|          0|
+    |ap_done_reg                       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4           |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter1_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter2_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter3_reg  |   1|   0|    1|          0|
+    |icmp_ln17_reg_413                 |   1|   0|    1|          0|
+    |max_value_11_fu_58                |  32|   0|   32|          0|
+    |max_value_13_fu_50                |  32|   0|   32|          0|
+    |max_value_18_reg_434              |  32|   0|   32|          0|
+    |max_value_19_reg_427              |  32|   0|   32|          0|
+    |max_value_1_fu_78                 |  32|   0|   32|          0|
+    |max_value_22_reg_447              |  32|   0|   32|          0|
+    |max_value_23_reg_440              |  32|   0|   32|          0|
+    |max_value_25_reg_453              |  32|   0|   32|          0|
+    |max_value_26_reg_458              |  32|   0|   32|          0|
+    |max_value_3_fu_74                 |  32|   0|   32|          0|
+    |max_value_5_fu_70                 |  32|   0|   32|          0|
+    |max_value_7_fu_66                 |  32|   0|   32|          0|
+    |max_value_9_fu_62                 |  32|   0|   32|          0|
+    |n_fu_54                           |   7|   0|    7|          0|
+    |zext_ln17_reg_417                 |   7|   0|   64|         57|
+    |icmp_ln17_reg_413                 |  64|  32|    1|          0|
+    |zext_ln17_reg_417                 |  64|  32|   64|         57|
+    +----------------------------------+----+----+-----+-----------+
+    |Total                             | 568|  64|  562|        114|
+    +----------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------+-----+-----+------------+-------------------------------+--------------+
+|     RTL Ports     | Dir | Bits|  Protocol  |         Source Object         |    C Type    |
++-------------------+-----+-----+------------+-------------------------------+--------------+
+|ap_clk             |   in|    1|  ap_ctrl_hs|  moving_max_Pipeline_MAIN_LOOP|  return value|
+|ap_rst             |   in|    1|  ap_ctrl_hs|  moving_max_Pipeline_MAIN_LOOP|  return value|
+|ap_start           |   in|    1|  ap_ctrl_hs|  moving_max_Pipeline_MAIN_LOOP|  return value|
+|ap_done            |  out|    1|  ap_ctrl_hs|  moving_max_Pipeline_MAIN_LOOP|  return value|
+|ap_idle            |  out|    1|  ap_ctrl_hs|  moving_max_Pipeline_MAIN_LOOP|  return value|
+|ap_ready           |  out|    1|  ap_ctrl_hs|  moving_max_Pipeline_MAIN_LOOP|  return value|
+|window_load_6      |   in|   32|     ap_none|                  window_load_6|        scalar|
+|window_load_5      |   in|   32|     ap_none|                  window_load_5|        scalar|
+|window_load_4      |   in|   32|     ap_none|                  window_load_4|        scalar|
+|window_load_3      |   in|   32|     ap_none|                  window_load_3|        scalar|
+|window_load_2      |   in|   32|     ap_none|                  window_load_2|        scalar|
+|window_load_1      |   in|   32|     ap_none|                  window_load_1|        scalar|
+|window_load        |   in|   32|     ap_none|                    window_load|        scalar|
+|in_data_address0   |  out|    6|   ap_memory|                        in_data|         array|
+|in_data_ce0        |  out|    1|   ap_memory|                        in_data|         array|
+|in_data_q0         |   in|   32|   ap_memory|                        in_data|         array|
+|out_data_address0  |  out|    6|   ap_memory|                       out_data|         array|
+|out_data_ce0       |  out|    1|   ap_memory|                       out_data|         array|
+|out_data_we0       |  out|    1|   ap_memory|                       out_data|         array|
+|out_data_d0        |  out|   32|   ap_memory|                       out_data|         array|
++-------------------+-----+-----+------------+-------------------------------+--------------+
+

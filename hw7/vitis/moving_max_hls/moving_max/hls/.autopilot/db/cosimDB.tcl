@@ -1,0 +1,55 @@
+
+
+set RtlHierarchyInfo {[
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1"],
+		"CDFG" : "moving_max",
+		"Protocol" : "ap_ctrl_hs",
+		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
+		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
+		"II" : "0",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "79", "EstimateLatencyMax" : "79",
+		"Combinational" : "0",
+		"Datapath" : "0",
+		"ClockEnable" : "0",
+		"HasSubDataflow" : "0",
+		"InDataflowNetwork" : "0",
+		"HasNonBlockingOperation" : "0",
+		"IsBlackBox" : "0",
+		"Port" : [
+			{"Name" : "in_data", "Type" : "Memory", "Direction" : "I",
+				"SubConnect" : [
+					{"ID" : "1", "SubInstance" : "grp_moving_max_Pipeline_MAIN_LOOP_fu_44", "Port" : "in_data", "Inst_start_state" : "2", "Inst_end_state" : "3"}]},
+			{"Name" : "out_data", "Type" : "Memory", "Direction" : "O",
+				"SubConnect" : [
+					{"ID" : "1", "SubInstance" : "grp_moving_max_Pipeline_MAIN_LOOP_fu_44", "Port" : "out_data", "Inst_start_state" : "2", "Inst_end_state" : "3"}]}],
+		"Loop" : [
+			{"Name" : "INIT_LOOP", "PipelineType" : "no",
+				"LoopDec" : {"FSMBitwidth" : "3", "FirstState" : "ap_ST_fsm_state2", "LastState" : ["ap_ST_fsm_state2"], "QuitState" : ["ap_ST_fsm_state2"], "PreState" : ["ap_ST_fsm_state1"], "PostState" : ["ap_ST_fsm_state3"], "OneDepthLoop" : "1", "OneStateBlock": "ap_ST_fsm_state2_blk"}}]},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_moving_max_Pipeline_MAIN_LOOP_fu_44", "Parent" : "0", "Child" : ["2"],
+		"CDFG" : "moving_max_Pipeline_MAIN_LOOP",
+		"Protocol" : "ap_ctrl_hs",
+		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
+		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
+		"II" : "0",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "69", "EstimateLatencyMax" : "69",
+		"Combinational" : "0",
+		"Datapath" : "0",
+		"ClockEnable" : "0",
+		"HasSubDataflow" : "0",
+		"InDataflowNetwork" : "0",
+		"HasNonBlockingOperation" : "0",
+		"IsBlackBox" : "0",
+		"Port" : [
+			{"Name" : "window_load_6", "Type" : "None", "Direction" : "I"},
+			{"Name" : "window_load_5", "Type" : "None", "Direction" : "I"},
+			{"Name" : "window_load_4", "Type" : "None", "Direction" : "I"},
+			{"Name" : "window_load_3", "Type" : "None", "Direction" : "I"},
+			{"Name" : "window_load_2", "Type" : "None", "Direction" : "I"},
+			{"Name" : "window_load_1", "Type" : "None", "Direction" : "I"},
+			{"Name" : "window_load", "Type" : "None", "Direction" : "I"},
+			{"Name" : "in_data", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "out_data", "Type" : "Memory", "Direction" : "O"}],
+		"Loop" : [
+			{"Name" : "MAIN_LOOP", "PipelineType" : "UPC",
+				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter4", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter3", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
+	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_moving_max_Pipeline_MAIN_LOOP_fu_44.flow_control_loop_pipe_sequential_init_U", "Parent" : "1"}]}
